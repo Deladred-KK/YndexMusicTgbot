@@ -9,7 +9,7 @@ import os
 logging.basicConfig(filename="bot.log", level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 #Тег админа
-ALLOWED_USER_ID = 1487950361 
+ALLOWED_USER_ID = "yourtelegramid"
 
 # Флаг для отслеживания, может ли бот искать песню
 waiting_for_song = False
